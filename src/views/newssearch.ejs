@@ -29,14 +29,14 @@
 	<%- include('./partials/navbar.ejs') %>
 	<div class="container-fluid row bg-light py-2">
 		<div class="col-12 my-2 text-center">
-			<h1><%- title %></h1>
+			<h1>Results for: <%- search %></h1>
 		</div>
 		<% if(articles != null) { %>
 		<% articles.forEach(function(article, index) { %>
 		<div class="col-12 col-md-6 col-lg-4 my-2">
 			<a href="<%- article.url %>" class="text-decoration-none">
 				<div class="col-12 p-2 h-100 border rounded text-dark bg-white">
-					<img src="<%- article.urlToImage %>" class="img-thumbnail rounded w-100" alt="<%- article.title %>">
+					<img src="<%- article.urlToImage %>" class="img-fluid img-thumbnail rounded w-100" alt="<%- article.title %>">
 					<h2 class="text-decoration-none"><%- article.title %></h2>
 					<p><%- article.description %></p>
 				</div>
