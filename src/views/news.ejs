@@ -9,5 +9,16 @@
 	</head>
 	<body>
 		<h1>Node.js News</h1>
+		<% if(articles != null) { %>
+			<% articles.forEach(function(article, index) { %>
+				<a href="<%- article.url %>" class="news__card">
+					<img src="<%- article.urlToImage %>" alt="<%- article.title %>">
+					<h2><%- article.title %></h2>
+					<p><%- article.description %></p>
+				</a>
+			<% }) %>
+		<% } else { %>
+			No posts found.
+		<% } %>
 	</body>
 </html>
