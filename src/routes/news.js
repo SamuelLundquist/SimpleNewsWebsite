@@ -5,7 +5,7 @@ const axios = require('axios')
 newsRouter.get('', async(req, res) => {
 	try {
 			const newsAPI = await axios.get('https://newsapi.org/v2/top-headlines?country=us&language=en&sortBy=popularity&apiKey=1f31f9ff71e74fe48d07266d58b211bd')
-			res.render('news', {  title: 'Popular', articles: newsAPI.data.articles })
+			res.render('news', {  title: 'JADEN HAS THE COOCHIE GRIP NO CAP', articles: newsAPI.data.articles })
 	} catch (err) {
 		if(err.response) {
 			console.log(err.response.data)
