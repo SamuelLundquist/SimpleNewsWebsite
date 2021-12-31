@@ -1,0 +1,19 @@
+{
+  "name": "simplenewswebsite",
+  "version": "1.0.0",
+  "description": "Simple news website from tutorial by RaddyTheBrand on Youtube.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelLundquist/SimpleNewsWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelLundquist/SimpleNewsWebsite/issues"
+  },
+  "homepage": "https://github.com/SamuelLundquist/SimpleNewsWebsite#readme"
+}
