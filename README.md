@@ -11,7 +11,7 @@ You can find this website hosted at: https://nodejs-news-heroku.herokuapp.com/
 ## Try on your own
 If you wish to try out this web app locally, you will need to provide a api key from: https://newsapi.org/
 
-This key need to be added to **_'news.js'_**
+This key needs to be added to **_'news.js'_**
 
 ## Tutorial links:
 Build News Website With Node.js, Express & EJS - WP Rest API - https://youtu.be/EkQc-8uzxIA
